@@ -9,7 +9,6 @@ on run argv
 
     set AppleScript's text item delimiters to {" | "}
     set alfredInput to argv
-    set alfredInput to "Hello World 2.0 | Mac"
 
     tell application "OmniFocus"
         tell front document
