@@ -1,4 +1,5 @@
-set alfredInput to "Hello World"
+on run argv
+set alfredInput to argv
 -- TODO: fix focusedDocument input
 set focusedDocument to null
 tell application "OmniFocus"
@@ -8,3 +9,4 @@ tell application "OmniFocus"
         parse tasks into focusedDocument with transport text alfredInput
     end if
 end tell
+end run
