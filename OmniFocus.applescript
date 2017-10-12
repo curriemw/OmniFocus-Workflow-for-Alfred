@@ -7,7 +7,7 @@ on run argv
     set focusedDocument to null
 
     -- parse Alfred's input to separate items
-    set alfredInput to argv
+    set alfredInput to argv as text
     set alfredInput to text items of alfredInput
     tell application "OmniFocus"
         tell front document
