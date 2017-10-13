@@ -16,6 +16,6 @@ In development:
 * Note
 
 ## Todo
-* Search function (ofsearch)
-* List all tasks for next 7 days (offorecast)
-* New Project (ofproject)
+* Search function (`ofsearch`)
+* List all tasks for next 7 days (`offorecast`)
+* New Project (`ofproject`)
