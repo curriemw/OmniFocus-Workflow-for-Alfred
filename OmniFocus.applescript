@@ -33,7 +33,6 @@ on run argv
 
 end run
 
---this breaks the code.
 on oftask()
     tell front document of application "OmniFocus"
         -- ORDER OF INPUT: Name, Context, Due Date
